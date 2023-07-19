@@ -1,7 +1,7 @@
 @font-face {
     font-family: "StratosSkyeng";
-    src: url(./fonts/StratosSkyeng.woff);
-    src: url(./fonts/StratosSkyeng.woff2);
+    src: url(../fonts/StratosSkyeng.woff);
+    src: url(../fonts/StratosSkyeng.woff2);
 }
 
 * {
@@ -81,4 +81,18 @@ body {
         line-height: 32px;
         cursor: pointer;
     }
+}
+
+.selected-level {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #004980;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.text-level-color {
+    color: #7AC100;
+    ;
 }
