@@ -1,0 +1,24 @@
+{
+    "name": "dev-tools",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write ../DEV-TOOLS",
+        "lint:js": "eslint ./script/**/*.js",
+        "lint:css": "stylelint ./styles/**.css",
+        "prepare": "husky install"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^5.0.0",
+        "prettier": "^3.0.0",
+        "stylelint": "^15.10.2",
+        "stylelint-config-standard": "^34.0.0",
+        "stylelint-prettier": "^4.0.0"
+    }
+}
