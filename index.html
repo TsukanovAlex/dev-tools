@@ -1,29 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <title>Document</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Document</title>
-</head>
-
-<body>
-    <div class="main" id="main-box">
-        <h2 class="main__title">Выбери сложность</h2>
-        <div class="main__level-box">
-            <input type="radio" name="games" data-index='1' id="level-light" class="level-input" value="1">
-            <label for="level-light">1</label>
-
-            <input type="radio" name="games" data-index='2' id="level-medium" class="level-input" value="2">
-            <label for="level-medium">2</label>
-
-            <input type="radio" name="games" data-index='3' id="level-hard" class="level-input" value="3">
-            <label for="level-hard">3</label>
-        </div>
-        <button id="start-button" class="main__button">Старт</button>
-    </div>
-</body>
-<script type="module" src="./script/main.js"></script>
-
+    <body>
+        <div id="app"></div>
+    </body>
+    <script type="module" src="./script/main.js"></script>
 </html>

@@ -1,0 +1,41 @@
+.center {
+    padding-left: calc(50% - 488px);
+    padding-right: calc(50% - 488px);
+}
+.game-box {
+    margin-top: 46px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 15px;
+}
+.center {
+    padding-left: calc(50% - 488px);
+    padding-right: calc(50% - 488px);
+}
+
+.header {
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.timer {
+    background-image: url(./img/timer.png);
+    background-size: cover;
+    background-position: center;
+    width: 155px;
+    height: 91px;
+}
+.header-game-button {
+    width: 246px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: #7ac100;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    cursor: pointer;
+}
