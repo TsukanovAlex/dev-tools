@@ -16,7 +16,6 @@ export function renderGame() {
     document
         .getElementById('startNewGameButton')
         .addEventListener('click', () => {
-            console.log('restart')
             renderGame()
         })
     document.getElementById('showCardButton').addEventListener('click', () => {
@@ -43,10 +42,9 @@ function renderOpenedCard() {
     document
         .getElementById('startNewGameButton')
         .addEventListener('click', () => {
-            console.log('restart')
             renderGame()
         })
     document.getElementById('showCardButton').addEventListener('click', () => {
-        renderOpenedCard()
+        renderGame()
     })
 }
