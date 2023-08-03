@@ -1,3 +1,11 @@
+.card-item {
+    background-image: url('../static/img/shirt.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 95px;
+    height: 133px;
+    cursor: pointer;
+}
 .cards-of-shirt {
     background-image: url(./img/shirt.jpg);
     background-size: cover;
